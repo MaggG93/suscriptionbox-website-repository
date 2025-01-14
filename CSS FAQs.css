@@ -1,0 +1,121 @@
+/* CSS para cajas */
+.contenedor-article {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.contenedor-article2 {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.contenedor-article3 {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* CSS que afecta a las etiquetas principales (body, header, article, ect) */
+body {
+    margin: 0;
+    padding: 0;
+    color: #1d1d1d;
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: #f3f3f3;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    color: #f3f3f3;
+    background-color: #1d1d1d;
+}
+
+aside {
+    margin-bottom: 10px;
+}
+
+/* CSS variado */
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+}
+
+a {
+    color: #E71C60;
+    text-align: center;
+}
+
+.destacado-h1 {
+    color: #E71C60;
+    font-weight: 700;
+}
+
+.destacado {
+    color: #E71C60;
+    font-weight: 700;
+}
+
+/* CSS que afecta al navegador */
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 5px 10px;
+    border: 1px solid #E71C60;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #E71C60;
+    color: #1d1d1d;
+}

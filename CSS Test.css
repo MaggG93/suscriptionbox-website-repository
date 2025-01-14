@@ -1,0 +1,113 @@
+/* CSS para cajas */
+.contenedor-pregunta {
+    float: left;
+    max-width: 600px;
+    min-width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #FFF;
+    flex-direction: column;
+    font-size: large;
+    text-align: center;
+}
+
+.contenedor-formulario {
+    display: flex;
+    max-width: 650px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f3f3f3;
+    flex-direction: column;
+    font-size: large;
+    text-align: center;
+}
+
+input[type="pregunta"] {
+    margin: 0;
+    width: 400px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    font-size: medium;
+}
+
+textarea {
+    color: rgb(146, 146, 146);
+}
+
+/* CSS que afecta a las etiquetas principales (body, header, article, ect) */
+body {
+    margin: 0;
+    padding: 0;
+    color: #1d1d1d;
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: #f3f3f3;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    color: #f3f3f3;
+    background-color: #1d1d1d;
+}
+
+/* CSS variado */
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(146, 146, 146);
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.destacado-h1 {
+    color: #E71C60;
+    font-weight: 700;
+}
+
+/* CSS que afecta al navegador */
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 5px 10px;
+    border: 1px solid #E71C60;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #E71C60;
+    color: #1d1d1d;
+}

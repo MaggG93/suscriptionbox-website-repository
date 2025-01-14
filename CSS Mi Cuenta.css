@@ -1,0 +1,88 @@
+/* CSS para cajas */
+.contenedor-formulario {
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    background-color: #FFF;
+    flex-direction: column;
+    font-size: large;
+}
+
+label {
+    color: #E71C60;
+    font-size: smaller;
+}
+
+input[type="submit"] {
+    color: #f3f3f3;
+    border: none;
+    border-radius: 5px;
+    background-color: #E71C60;
+    font-size: large;
+    font-weight: 700;
+}
+
+/* CSS que afecta a las etiquetas principales (body, header, article, ect) */
+body {
+    margin: 0;
+    padding: 0;
+    color: #1d1d1d;
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: #f3f3f3;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    color: #f3f3f3;
+    background-color: #1d1d1d;
+}
+
+/* CSS variado */
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    color: #E71C60;
+    text-align: center;
+}
+
+.destacado-h1 {
+    color: #E71C60;
+    font-weight: 700;
+}
+
+/* CSS que afecta al navegador */
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 5px 10px;
+    border: 1px solid #E71C60;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #E71C60;
+    color: #1d1d1d;
+}

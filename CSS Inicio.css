@@ -1,0 +1,169 @@
+/* CSS para cajas */
+.contenedor-article {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-article2 {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-footer {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+}
+
+.contenedor-footer input {
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+input[type="submit"] {
+    color: #f3f3f3;
+    background-color: #E71C60;
+    font-size: large;
+    font-weight: 700;
+}
+
+.contenedor-imagen {
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-enlaces {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+}
+
+.contenedor-enlaces a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #E71C60;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.contenedor-enlaces a:hover {
+    color: #E71C60;
+}
+
+/* CSS que afecta a las etiquetas principales (body, header, article, ect) */
+body {
+    margin: 0;
+    padding: 0;
+    color: #1d1d1d;
+    font-family: sans-serif;
+    text-align: justify;
+    background-color: #f3f3f3;
+}
+
+footer {
+    padding: 10px;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: #1d1d1d;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    color: #f3f3f3;
+    background-color: #1d1d1d;
+}
+
+article {
+    margin: 0;
+    padding: 10px;
+    color: #1d1d1d;
+    background-color: #f3f3f3;
+}
+
+aside {
+    padding: 10px;
+    color: #f3f3f3;
+    text-align: center;
+    background-color: #1d1d1d;
+}
+
+/* CSS variado */
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+}
+
+.destacado {
+    color: #E71C60;
+    font-weight: 700;
+}
+
+.destacado-h1 {
+    color: #E71C60;
+    font-weight: 700;
+}
+
+/* CSS que afecta al navegador */
+nav {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 5px 10px;
+    border: 1px solid #E71C60;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    background-color: #E71C60;
+    color: #1d1d1d;
+}
